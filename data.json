@@ -1,0 +1,118 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "Hello", "Hey", "Greetings", "Hi", "Good day"],
+            "responses": ["Hello! Welcome to the embedded software interview. I'm here to ask you some questions.", "Hi! Ready for the interview?", "Greetings! Let's start the interview."],
+            "context": [""]
+        },
+        {
+            "tag": "ask_experience",
+            "patterns": ["Tell me about your embedded software experience", "Share your experience in embedded systems", "Discuss your background in embedded programming"],
+            "responses": ["Sure, I'd love to hear about your experience with embedded software development.", "Can you provide details about your work in embedded systems?", "Share your journey in embedded software so far."],
+            "context": [""]
+        },
+        {
+            "tag": "programming_languages",
+            "patterns": ["Which programming languages do you use for embedded development?", "Tell me about your proficiency in programming languages for embedded systems"],
+            "responses": ["Let's discuss the programming languages you are familiar with for embedded development.", "Which languages are you comfortable using in the context of embedded software?", "Share your expertise in programming languages used in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "RTOS",
+            "patterns": ["What is an RTOS?", "Explain the role of a Real-Time Operating System in embedded systems"],
+            "responses": ["Let's dive into Real-Time Operating Systems (RTOS). Can you explain what it is?", "Discuss the significance of an RTOS in the context of embedded software.", "Share your knowledge about Real-Time Operating Systems."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_systems_architecture",
+            "patterns": ["Describe the architecture of embedded systems", "Explain the components of an embedded system"],
+            "responses": ["Let's talk about embedded systems architecture. Can you describe it?", "Discuss the key components that make up an embedded system.", "Share your insights into the architecture of embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "interrupts",
+            "patterns": ["What are interrupts in embedded systems?", "Explain the role of interrupts in microcontroller-based systems"],
+            "responses": ["Let's discuss interrupts in embedded systems. Can you provide an explanation?", "Explain how interrupts are used in microcontroller-based embedded systems.", "Share your understanding of interrupts."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_C",
+            "patterns": ["How do you use C language in embedded programming?", "Discuss the role of C in developing embedded software"],
+            "responses": ["Let's talk about embedded C. How do you utilize the C language in embedded programming?", "Discuss your experience with C in the context of embedded software development.", "Share your insights into using C for embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "debugging_embedded_systems",
+            "patterns": ["How do you debug embedded systems?", "Discuss your approach to debugging in embedded software development"],
+            "responses": ["Let's discuss debugging in embedded systems. How do you approach it?", "Share your techniques and tools for debugging in the context of embedded software.", "Discuss your experience with debugging embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "memory_management",
+            "patterns": ["Explain memory management in embedded systems", "Discuss strategies for efficient memory usage in embedded programming"],
+            "responses": ["Let's talk about memory management in embedded systems. Can you explain the principles?", "Discuss strategies for efficient memory usage in the context of embedded programming.", "Share your knowledge of memory management in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "communication_protocols",
+            "patterns": ["Which communication protocols are commonly used in embedded systems?", "Discuss your experience with communication protocols in embedded programming"],
+            "responses": ["Let's discuss communication protocols in embedded systems. Which ones are you familiar with?", "Share your experience working with communication protocols in embedded programming.", "Discuss the role of communication protocols in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_hardware",
+            "patterns": ["How do you collaborate with hardware engineers in embedded systems development?", "Discuss the interaction between software and hardware in embedded programming"],
+            "responses": ["Let's talk about the collaboration between software and hardware in embedded systems development. How do you work with hardware engineers?", "Discuss your experience in collaborating with hardware engineers in the context of embedded programming.", "Share insights into the interaction between software and hardware in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "RTOS_schedulers",
+            "patterns": ["Explain different types of schedulers in RTOS", "Discuss the role of schedulers in Real-Time Operating Systems"],
+            "responses": ["Let's dive into RTOS schedulers. Can you explain the different types?", "Discuss the role of schedulers in Real-Time Operating Systems and their impact on embedded systems.", "Share your knowledge about schedulers in RTOS."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_testing",
+            "patterns": ["How do you approach testing in embedded software development?", "Discuss your strategies for testing embedded systems"],
+            "responses": ["Let's discuss testing in embedded software development. How do you approach it?", "Discuss your strategies and methodologies for testing embedded systems.", "Share your experience with testing in the context of embedded software development."],
+            "context": [""]
+        },
+        {
+            "tag": "RTOS_context_switching",
+            "patterns": ["Explain context switching in RTOS", "Discuss how context switching is handled in Real-Time Operating Systems"],
+            "responses": ["Let's talk about context switching in RTOS. Can you explain how it works?", "Discuss how context switching is handled in Real-Time Operating Systems and its significance.", "Share your knowledge about context switching in RTOS."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_security",
+            "patterns": ["Discuss the importance of security in embedded systems", "How do you approach security in embedded software development?"],
+            "responses": ["Let's discuss the importance of security in embedded systems. Why is it crucial?", "How do you approach security in the context of embedded software development?", "Share your insights into ensuring security in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "RTOS_deadlines",
+            "patterns": ["Explain meeting deadlines in Real-Time Operating Systems", "Discuss strategies for meeting deadlines in embedded programming"],
+            "responses": ["Let's talk about meeting deadlines in Real-Time Operating Systems. How is it accomplished?", "Discuss strategies for meeting deadlines in embedded programming and the challenges involved.", "Share your experience in meeting deadlines in the context of Real-Time Operating Systems."],
+            "context": [""]
+        },
+        {
+            "tag": "embedded_power_management",
+            "patterns": ["Discuss power management in embedded systems", "Explain strategies for efficient power usage in embedded programming"],
+            "responses": ["Let's discuss power management in embedded systems. Can you explain the strategies for efficient power usage?", "Discuss your experience with power management in the context of embedded programming.", "Share insights into optimizing power usage in embedded systems."],
+            "context": [""]
+        },
+        {
+            "tag": "end_of_interview",
+            "patterns": ["Do you have any questions for us?", "Is there anything else you would like to share?", "End of interview"],
+            "responses": ["Thank you for answering our questions. Do you have any questions for us?", "Is there anything else you would like to share before we conclude?", "That concludes the interview. Do you have any final thoughts or questions?"],
+            "context": [""]
+        },
+        {
+            "tag": "fallback",
+            "patterns": [],
+            "responses": ["I'm sorry, I didn't understand that. Can you please provide more information?", "I'm not sure I understand. Could you please clarify?", "Apologies, I didn't catch that. Can you rephrase or provide more details?"],
+            "context": [""]
+        }
+    ]
+}
